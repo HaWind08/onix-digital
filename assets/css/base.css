@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --color-one: #ff695f;
+    --color-two: #03a4ed;
+    --color-text: #2a2a2a;
+    --font: "Poppins", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font);
+    color: var(--color-text);
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p,
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+em {
+    color: var(--color-two);
+    font-style: normal;
+}
+
+span {
+    color: var(--color-one);
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    background: #000;
+    color: #fff;
+    border-radius: 40px;
+    padding: 12px 20px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.btn-one {
+    background: var(--color-one);
+}
+
+.btn-one:hover {
+    background: var(--color-two);
+}
+
+.btn-two {
+    background: var(--color-two);
+}
+
+.btn-two:hover {
+    background: var(--color-one);
+}
+
+/* End button */
+
+/* Box head */
+.box-head {
+    text-align: center;
+    margin-bottom: 80px;
+    text-transform: capitalize;
+}
+
+.box-head .inner-title, .inner-opa {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.box-head .inner-opa {
+    opacity: 0.15;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-top: -4px;
+}
+
+/* End box head */
